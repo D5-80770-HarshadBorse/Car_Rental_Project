@@ -33,16 +33,16 @@ const USER_NAV_MENU = [
     text: 'Home',
     path: 'user/car-listing',
   },
-  {
-    text: 'Services',
-    path: 'user/services',
-  },
 
   {
     text: 'MyBookings',
     path: 'user/bookings',
-  }
+  },
 
+  {
+    text: 'Products',
+    path: 'user/products',
+  }
 ]
 
 const NAV__MENU = isLoggedIn() ? USER_NAV_MENU : HOME_NAV_MENU;

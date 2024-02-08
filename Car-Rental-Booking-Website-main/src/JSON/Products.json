@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "title": "Car Battery",
+      "price": 150,
+      "category": "Battery",
+      "imgUrl": "https://m.media-amazon.com/images/I/61X0VQWEOqL.jpg",
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor."
+    },
+
+    {
+      "id": 2,
+      "title": "Car Disk",
+      "price": 50,
+      "category": "Disk ",
+      "imgUrl": "https://5.imimg.com/data5/SELLER/Default/2020/9/JQ/SD/RX/24244055/car-brake-disc-500x500.jpg",
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor."
+    },
+
+    {
+      "id": 3,
+      "title": "Luxury Seat",
+      "price": 390,
+      "category": "Seat",
+      "imgUrl": "https://rukminim2.flixcart.com/image/850/1000/kirr24w0-0/car-seat-cover/o/s/r/s5-pu202101-luxury-premium-original-imafyhe3ffe9z7q8.jpeg?q=20&crop=false",
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor."
+    },
+
+    {
+      "id": 4,
+      "title": "Steering Wheel",
+      "price": 150,
+      "category": " Wheel",
+      "imgUrl": "https://bmwaccessories.ie/cdn/shop/products/20200227_151735807_10fd299f-4dda-48b1-af73-f57c96d7b303.jpg?v=1599049123&width=1445",
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor."
+    },
+
+    {
+      "id": 5,
+      "title": " Absorber",
+      "price": 110,
+      "category": "Shock Absorber",
+      "imgUrl": "https://m.media-amazon.com/images/I/61VNiHFlpZL._AC_UF1000,1000_QL80_.jpg",
+      "description": " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor."
+    }
+  ]

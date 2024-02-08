@@ -13,7 +13,7 @@ import CarCard from '../components/CarCard';
 const CarRental = () => {
   const { data: carData, isPending, error } = useFetch(`${BASE_URL}/api/v1/cars/all`);
   const [pageNumber, setPageNumber] = useState(0);
-  const carPerPage = 6;
+  const carPerPage = 8;
   const visitedPage = pageNumber * carPerPage;
   const displayPage = carData
     .slice(visitedPage, visitedPage + carPerPage)

@@ -6,7 +6,7 @@ import ReactPaginate from 'react-paginate';
 import Helmet from '../components/Helmet';
 import CommonSection from '../components/CommonSection';
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap';
-
+import products from '../JSON/Products.json'
 import ProductCard from '../components/ProductCard';
 
 const PRODUCT__CATEGORY = [
@@ -34,7 +34,7 @@ const PRODUCT__CATEGORY = [
 ];
 
 const Products = () => {
-  const { data: products, isPending, error } = useFetch(`${BASE_URL}/products`);
+  // const { data: products, isPending, error } = useFetch(`${BASE_URL}/products`);
   const [pageNumber, setPageNumber] = useState(0);
   const productPerPage = 9;
   const visitedPage = pageNumber * productPerPage;
@@ -91,8 +91,8 @@ const Products = () => {
             </Col>
 
             <Col lg="9" md="9" sm="9" xs="7">
-              {isPending && <p className="text-center">Loading......</p>}
-              {error && <h6 className="text-center">{error}</h6>}
+              {/* {isPending && <p className="text-center">Loading......</p>}
+              {error && <h6 className="text-center">{error}</h6>} */}
               <div className=" d-flex  align-items-center justify-content-between flex-wrap">
                 {displayPage}
               </div>

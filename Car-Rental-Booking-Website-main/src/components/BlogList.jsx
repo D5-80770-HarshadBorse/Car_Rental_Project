@@ -4,14 +4,14 @@ import { BASE_URL } from '../config/config';
 import { Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import '../styles/blog-list.css';
-
+import blogs from '../JSON/Blog.json'
 const BlogList = () => {
-  const { data: blogs, isPending, error } = useFetch(`${BASE_URL}/blogs`);
+  // const { data: blogs, isPending, error } = useFetch(`${BASE_URL}/blogs`);
 
   return (
     <>
-      {isPending && <p className="text-center">Loading......</p>}
-      {error && <h6 className="text-center">{error}</h6>}
+      {/* {isPending && <p className="text-center">Loading......</p>}
+      {error && <h6 className="text-center">{error}</h6>} */}
 
       {blogs &&
         blogs.map((blog, index) => (

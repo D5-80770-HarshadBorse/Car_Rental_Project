@@ -4,20 +4,20 @@ import '../styles/servicebox.css';
 import { Link } from 'react-router-dom';
 import useFetch from '../hooks/useFetch';
 import { BASE_URL } from '../config/config';
-
-const ServicesItem = () => {
-  const { data: services, isPending, error } = useFetch(`${BASE_URL}/services`);
+import Srecords from '../JSON/Service.json'
+const SrecordsItem = () => {
+  // const { data: services, isPending, error } = useFetch(`${BASE_URL}/Srecords`);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [services]);
+  }, [Srecords]);
   return (
     <>
-      {isPending && <h6 className="text-center">Loading....</h6>}
-      {error && <h6 className="text-center">{error}</h6>}
+      {/* {isPending && <h6 className="text-center">Loading....</h6>}
+      {error && <h6 className="text-center">{error}</h6>} */}
 
-      {services &&
-        services.map((item, index) => <ServiceBox item={item} key={index} />)}
+      {Srecords &&
+        Srecords.map((item, index) => <ServiceBox item={item} key={index} />)}
     </>
   );
 };
@@ -42,4 +42,4 @@ const ServiceBox = ({ item }) => {
   );
 };
 
-export default ServicesItem;
+export default SrecordsItem;

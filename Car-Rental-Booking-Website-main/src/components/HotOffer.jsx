@@ -4,7 +4,7 @@ import { BASE_URL } from '../config/config';
 import useFetch from '../hooks/useFetch';
 
 import '../styles/hot-offer.css';
-import CarCard from './CarCard';
+import CarCard1 from './CarCard1';
 
 const HotOffer = () => {
   const { data: carData, isPending, error } = useFetch(`${BASE_URL}/api/v1/cars/all`);
@@ -17,7 +17,7 @@ const HotOffer = () => {
       {carData &&
         carData
           .slice(0, 6)
-          .map((item, index) => <CarCard item={item} key={index} />)}
+          .map((item, index) => <CarCard1 item={item} key={index} />)}
     </>
   );
 };
